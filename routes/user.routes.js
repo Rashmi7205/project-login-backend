@@ -7,8 +7,6 @@ import { login,register,updateUser,
     logout
 } from '../controller/user.controller.js';
 import isLoggedIn from '../middleware/user.auth.js';
-import upload from '../middleware/multer.middleware.js';
-import multer from 'multer';
 
 
 const router =Router();
